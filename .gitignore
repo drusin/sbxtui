@@ -1,0 +1,26 @@
+# Dependencies (none today, but npm link / future packages create these)
+node_modules/
+
+# Logs and test output
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
+
+# Packaged tarballs from `npm pack`
+*.tgz
+
+# Local environment
+.env
+.env.*
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code local settings
+.claude/settings.local.json
